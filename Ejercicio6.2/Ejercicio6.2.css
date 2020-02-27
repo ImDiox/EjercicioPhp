@@ -1,0 +1,21 @@
+.logo{
+    margin-left: 40%;
+}
+
+.fondo{
+    background: url(img/bannerfruteria.png) center no-repeat;
+    background-size: cover;    
+}
+
+p{
+    font-weight: 800;
+}
+
+.row{
+    margin:40px;
+
+}
+
+.boton{
+    margin-left: 50%;
+}
