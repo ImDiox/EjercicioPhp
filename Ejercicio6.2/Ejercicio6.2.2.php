@@ -15,14 +15,14 @@
     }    
     $total=0;
     $item=$_GET["item"];
-    $cantidad=$_GET["cantidad"];
+    $cuant=$_GET["cuant"];
     /*for($i=0;$i<count($item);$i++){
         if(isset($item[$i])){
             $total=$total+$item[$i];
         }
     }*/
     foreach ($item as $i=>$valor){
-        echo "<p>Has comprado $i, que vale: $valor</p>";
+        echo "<p>Has comprado $i, que valen: $valor</p>";
         $total=$total+$valor;
     }
     if ($total<=50){
